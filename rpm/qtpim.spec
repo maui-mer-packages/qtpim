@@ -211,7 +211,7 @@ rm -rf %{buildroot}/%{_includedir}/qt5/Qt
 %defattr(-,root,root,-)
 %{_libdir}/libQt0Contacts.so
 %{_libdir}/libQt0Contacts.prl
-%{_libdir}/pkgconfig/Qt5Contacts.pc
+%{_libdir}/pkgconfig/Qt0Contacts.pc
 %{_includedir}/qt5/QtContacts/
 %{_datadir}/qt5/mkspecs/modules/qt_lib_contacts.pri
 %{_datadir}/qt5/mkspecs/modules/qt_lib_contacts_private.pri
@@ -231,7 +231,7 @@ rm -rf %{buildroot}/%{_includedir}/qt5/Qt
 %defattr(-,root,root,-)
 %{_libdir}/libQt0Organizer.so
 %{_libdir}/libQt0Organizer.prl
-%{_libdir}/pkgconfig/Qt5Organizer.pc
+%{_libdir}/pkgconfig/Qt0Organizer.pc
 %{_includedir}/qt5/QtOrganizer/
 %{_datadir}/qt5/mkspecs/modules/qt_lib_organizer.pri
 %{_datadir}/qt5/mkspecs/modules/qt_lib_organizer_private.pri
@@ -252,7 +252,7 @@ rm -rf %{buildroot}/%{_includedir}/qt5/Qt
 %defattr(-,root,root,-)
 %{_libdir}/libQt0Versit.so
 %{_libdir}/libQt0Versit.prl
-%{_libdir}/pkgconfig/Qt5Versit.pc
+%{_libdir}/pkgconfig/Qt0Versit.pc
 %{_includedir}/qt5/QtVersit/
 %{_datadir}/qt5/mkspecs/modules/qt_lib_versit.pri
 %{_datadir}/qt5/mkspecs/modules/qt_lib_versit_private.pri
@@ -267,7 +267,7 @@ rm -rf %{buildroot}/%{_includedir}/qt5/Qt
 %defattr(-,root,root,-)
 %{_libdir}/libQt0VersitOrganizer.so
 %{_libdir}/libQt0VersitOrganizer.prl
-%{_libdir}/pkgconfig/Qt5VersitOrganizer.pc
+%{_libdir}/pkgconfig/Qt0VersitOrganizer.pc
 %{_includedir}/qt5/QtVersitOrganizer/
 %{_datadir}/qt5/mkspecs/modules/qt_lib_versitorganizer.pri
 %{_datadir}/qt5/mkspecs/modules/qt_lib_versitorganizer_private.pri
