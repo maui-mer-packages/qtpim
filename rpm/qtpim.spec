@@ -203,14 +203,14 @@ rm -rf %{buildroot}/%{_includedir}/qt5/Qt
 
 %files -n qt5-qtpim-contacts
 %defattr(-,root,root,-)
-%{_libdir}/libQt5Contacts.so.5
-%{_libdir}/libQt5Contacts.so.5.*
+%{_libdir}/libQt0Contacts.so.0
+%{_libdir}/libQt0Contacts.so.0.*
 %{_libdir}/qt5/plugins/contacts/libqtcontacts_memory.so
 
 %files -n qt5-qtpim-contacts-devel
 %defattr(-,root,root,-)
-%{_libdir}/libQt5Contacts.so
-%{_libdir}/libQt5Contacts.prl
+%{_libdir}/libQt0Contacts.so
+%{_libdir}/libQt0Contacts.prl
 %{_libdir}/pkgconfig/Qt5Contacts.pc
 %{_includedir}/qt5/QtContacts/
 %{_datadir}/qt5/mkspecs/modules/qt_lib_contacts.pri
@@ -223,14 +223,14 @@ rm -rf %{buildroot}/%{_includedir}/qt5/Qt
 
 %files -n qt5-qtpim-organizer
 %defattr(-,root,root,-)
-%{_libdir}/libQt5Organizer.so.5
-%{_libdir}/libQt5Organizer.so.5.*
+%{_libdir}/libQt0Organizer.so.0
+%{_libdir}/libQt0Organizer.so.0.*
 %{_libdir}/qt5/plugins/organizer/libqtorganizer_memory.so
 
 %files -n qt5-qtpim-organizer-devel
 %defattr(-,root,root,-)
-%{_libdir}/libQt5Organizer.so
-%{_libdir}/libQt5Organizer.prl
+%{_libdir}/libQt0Organizer.so
+%{_libdir}/libQt0Organizer.prl
 %{_libdir}/pkgconfig/Qt5Organizer.pc
 %{_includedir}/qt5/QtOrganizer/
 %{_datadir}/qt5/mkspecs/modules/qt_lib_organizer.pri
@@ -243,15 +243,15 @@ rm -rf %{buildroot}/%{_includedir}/qt5/Qt
 
 %files -n qt5-qtpim-versit
 %defattr(-,root,root,-)
-%{_libdir}/libQt5Versit.so.5
-%{_libdir}/libQt5Versit.so.5.*
+%{_libdir}/libQt0Versit.so.0
+%{_libdir}/libQt0Versit.so.0.*
 %{_libdir}/qt5/plugins/versit/libqtversit_backuphandler.so
 %{_libdir}/qt5/plugins/versit/libqtversit_vcardpreserver.so
 
 %files -n qt5-qtpim-versit-devel
 %defattr(-,root,root,-)
-%{_libdir}/libQt5Versit.so
-%{_libdir}/libQt5Versit.prl
+%{_libdir}/libQt0Versit.so
+%{_libdir}/libQt0Versit.prl
 %{_libdir}/pkgconfig/Qt5Versit.pc
 %{_includedir}/qt5/QtVersit/
 %{_datadir}/qt5/mkspecs/modules/qt_lib_versit.pri
@@ -260,13 +260,13 @@ rm -rf %{buildroot}/%{_includedir}/qt5/Qt
 
 %files -n qt5-qtpim-versitorganizer
 %defattr(-,root,root,-)
-%{_libdir}/libQt5VersitOrganizer.so.5
-%{_libdir}/libQt5VersitOrganizer.so.5.*
+%{_libdir}/libQt0VersitOrganizer.so.0
+%{_libdir}/libQt0VersitOrganizer.so.0.*
 
 %files -n qt5-qtpim-versitorganizer-devel
 %defattr(-,root,root,-)
-%{_libdir}/libQt5VersitOrganizer.so
-%{_libdir}/libQt5VersitOrganizer.prl
+%{_libdir}/libQt0VersitOrganizer.so
+%{_libdir}/libQt0VersitOrganizer.prl
 %{_libdir}/pkgconfig/Qt5VersitOrganizer.pc
 %{_includedir}/qt5/QtVersitOrganizer/
 %{_datadir}/qt5/mkspecs/modules/qt_lib_versitorganizer.pri
